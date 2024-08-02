@@ -4,7 +4,7 @@ import solana from "@wormhole-foundation/sdk/platforms/solana";
 
 // register protocol implementations
 import "@wormhole-foundation/sdk-evm-ntt";
-import "@wormhole-foundation/sdk-solana-ntt";
+// import "@wormhole-foundation/sdk-solana-ntt";
 
 import { Ntt } from "@wormhole-foundation/sdk-definitions-ntt";
 import { NttRoute } from "@wormhole-foundation/sdk-route-ntt";
