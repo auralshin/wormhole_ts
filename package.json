@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "build": "tsc",
+    "claim": "node ./dist/index.js",
     "start": "tsx index.ts"
   },
   "dependencies": {
     "@wormhole-foundation/sdk": "^0.8",
     "@wormhole-foundation/sdk-definitions": "^0.8",
+    "dotenv": "^16.4.5",
     "ts-node": "^10.9.2",
     "tsx": "^4.7.2",
     "typescript": "^5.1.1"
